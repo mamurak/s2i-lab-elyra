@@ -65,6 +65,6 @@ if [ -f /opt/app-root/src/.jupyter/jupyter_notebook_config.sh ]; then
     . /opt/app-root/src/.jupyter/jupyter_notebook_config.sh
 fi
 
-. /opt/app-root/bin/setup-elyra.sh
+#. /opt/app-root/bin/setup-elyra.sh
 
 exec /opt/app-root/bin/start.sh $JUPYTER_PROGRAM $JUPYTER_PROGRAM_ARGS "$@"
