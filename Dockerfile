@@ -1,4 +1,4 @@
-FROM quay.io/thoth-station/s2i-minimal-py38-notebook:v0.5.0
+FROM quay.io/thoth-station/s2i-minimal-py38-notebook:v0.5.1
 
 ENV JUPYTER_ENABLE_LAB=true
 ENV CRIO_RUNTIME=true
